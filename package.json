@@ -1,6 +1,6 @@
 {
   "name": "fastify-type-provider-schemastery",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Schemastery type provider for Fastify",
   "keywords": [
     "fastify",
