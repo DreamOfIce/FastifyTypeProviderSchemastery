@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/compare/v1.0.1...v1.1.0) (2026-09-19)
+
+### Features
+
+- remove key `default` of schema root ([a2d3e74](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/commit/a2d3e74dc8d276178d4f4791033d75cb5b82b48e))
+
 ## 1.0.1 (2026-09-19)
 
 ### Features
