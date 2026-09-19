@@ -1,7 +1,9 @@
 import type { FastifyTypeProvider } from "fastify";
 import type Schema from "schemastery";
 
+export type InferType<T> = T extends Schema<infer U> ? U : T;
+
 export interface SchemasteryTypeProvider extends FastifyTypeProvider {
-  validator: this["schema"] extends Schema<infer T> ? T : unknown;
-  serializer: this["schema"] extends Schema<infer T> ? T : unknown;
+  validator: InferType<this["schema"]>;
+  serializer: InferType<this["schema"]>;
 }
