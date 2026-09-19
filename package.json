@@ -38,7 +38,7 @@
     "fmt": "oxfmt",
     "lint": "oxlint --fix",
     "prepare": "husky",
-    "release": "release-it"
+    "release": "dotenv run -- release-it"
   },
   "dependencies": {
     "@dreamofice/schemastery-json-schema": "^1.0.0",
@@ -53,6 +53,7 @@
     "@tsconfig/node-lts": "^24.0.1",
     "@tsconfig/strictest": "^2.0.8",
     "@types/node": "^26.6.1",
+    "dotenv": "^18.0.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "oxfmt": "^0.68.0",
