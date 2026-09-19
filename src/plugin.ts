@@ -21,8 +21,13 @@ interface FastifySchema {
 }
 
 const convertSchema = (converter: Converter, schema: unknown) => {
-  if (schema instanceof Schema) return converter.toJSONSchema(schema);
-  else return schema;
+  if (schema instanceof Schema) {
+    const s = converter.toJSONSchema(schema);
+    if (typeof s === "object") Reflect.deleteProperty(s, "default");
+    return s;
+  } else {
+    return schema;
+  }
 };
 
 const isContentTypeSchema = (
