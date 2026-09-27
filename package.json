@@ -41,7 +41,7 @@
     "release": "dotenv run -- release-it"
   },
   "dependencies": {
-    "@dreamofice/schemastery-json-schema": "^1.1.0",
+    "@dreamofice/schemastery-json-schema": "^1.1.1",
     "cosmokit": "^1.8.1",
     "fastify-plugin": "^6.0.0"
   },

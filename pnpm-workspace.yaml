@@ -1,5 +1,5 @@
 gitChecks: false
 minimumReleaseAgeExclude:
-  - "@dreamofice/schemastery-json-schema@1.1.0"
+  - "@dreamofice/schemastery-json-schema"
 overrides:
   "@types/parse-path": "-"
