@@ -41,24 +41,23 @@
     "release": "dotenv run -- release-it"
   },
   "dependencies": {
-    "@dreamofice/schemastery-json-schema": "^1.0.0",
+    "@dreamofice/schemastery-json-schema": "^1.1.0",
     "cosmokit": "^1.8.1",
     "fastify-plugin": "^6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
-    "@fastify/ajv-compiler": "^4.0.6",
     "@release-it/conventional-changelog": "^12.0.2",
     "@tsconfig/node-lts": "^24.0.1",
     "@tsconfig/strictest": "^2.0.8",
-    "@types/node": "^26.6.2",
-    "dotenv": "^18.0.1",
+    "@types/node": "^26.6.3",
+    "dotenv": "^18.0.4",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
-    "oxfmt": "^0.68.0",
-    "oxlint": "^1.83.0",
-    "oxlint-tsgolint": "^7.0.2002",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0",
+    "oxlint-tsgolint": "^7.0.2003",
     "release-it": "^21.1.0",
     "tsdown": "^0.23.0",
     "typescript": "^7.0.2"
@@ -71,5 +70,5 @@
     "*": "pnpm fmt --no-error-on-unmatched-pattern",
     "*.{c,m}?{js,ts}": "pnpm lint"
   },
-  "packageManager": "pnpm@12.5.1"
+  "packageManager": "pnpm@12.7.0"
 }
