@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.5](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/compare/v1.1.4...v1.1.5) (2026-09-29)
+
+### Bug Fixes
+
+- set default schema type to unknown ([87a47eb](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/commit/87a47eb1cb60eb0e371077f1f50a95b4c0c01413))
+
 ## [1.1.4](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/compare/v1.1.3...v1.1.4) (2026-09-27)
 
 ## [1.1.3](https://github.com/DreamOfIce/FastifyTypeProviderSchemastery/compare/v1.1.2...v1.1.3) (2026-09-27)
